@@ -1,0 +1,116 @@
+@font-face {
+	font-family:komika_axis;
+	src:url(KOMIKAX_.ttf);
+}
+@font-face {
+	font-family:life_is_goofy;
+	src:url(Life_is_goofy.ttf);
+}
+body {
+	background-color:#ccc;
+}
+.background-img {
+	background-image:url(../images/background.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+}
+.header h1, #video-overlay h1 {
+	font-family:komika_axis;
+	color:#ff0000;
+}
+nav {
+	background-color:#0a0c70;
+	position:relative;
+	bottom:25px;
+}
+header img {
+	width:100%;
+}
+#entry ul, #video-overlay ul {
+	list-style:none;
+	position:relative;
+	right:40px;
+}
+nav a {
+	color:#fa7b16;
+	font-family:komika_axis;
+	font-size:12pt;	
+}
+nav ul {
+	list-style:none;
+}
+.main, #welcome-message {
+	font-family:life_is_goofy;
+	font-size:18pt;
+}
+.main h1, #welcome-message h1 {
+	font-family:komika_axis;
+	color:#ff0000;
+	font-size:18pt;
+}
+.main h2, #video-overlay h2 {
+	font-family:komika_axis;
+	color:#fa7b16;
+	font-size:10pt;
+}
+.main img {
+	width:100%;
+}
+a {
+	color:#337ab7;
+	font-family:life_is_goofy;
+	font-size:18pt;
+}
+#entry p, #welcome-message p {
+	color:white;
+}
+#entry {
+	background-color:rgba(10, 12, 112, .9);
+	margin-bottom:30px;
+	padding-bottom:10px;
+}
+#welcome-message {
+	background-color:rgba(10, 12, 112, .9);
+}
+.video-thumb, .character-thumb {
+	cursor:pointer;
+	background-color:#222;
+	padding-bottom:10px;
+	border:5px solid;
+	border-color:#444;
+}
+#video-overlay {
+	padding-top:100px;
+	position:fixed;
+	display:none;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,.9);
+	color:white;
+}
+.video-info {
+	background-color:black;
+	position:relative;
+}
+#video-overlay input {
+	background-color:black;
+	border-color:black;
+	position:absolute;
+	right:0px;
+	font-size:16px;
+}
+#video-overlay a {
+	color:#337ab7;
+}
+#video-overlay h1 {
+	font-size:16pt;
+}
+#video-overlay p {
+	font-family:life_is_goofy;
+	font-size:16pt;
+}
+a:hover {
+	text-decoration:none;
+}
